@@ -1,4 +1,4 @@
-package com.example.byte_transfer
+package com.example.libre_send
 
 import android.app.NotificationManager
 import android.app.Service
@@ -15,7 +15,7 @@ import androidx.core.app.NotificationCompat
 class LibreSendForegroundService : Service() {
     companion object {
         const val NOTIFICATION_ID = 1
-        const val CHANNEL_ID = "byte_transfer_foreground_service"
+        const val CHANNEL_ID = "libre_send_foreground_service"
     }
 
     private var notificationManager: NotificationManager? = null

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:byte_transfer/app/app_state_manager.dart';
-import 'package:byte_transfer/services/download_service.dart';
+import 'package:libre_send/app/app_state_manager.dart';
+import 'package:libre_send/services/download_service.dart';
 
 class ReceiverScreen extends StatefulWidget {
   const ReceiverScreen({Key? key}) : super(key: key);

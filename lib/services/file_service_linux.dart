@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:byte_transfer/models/models.dart';
+import 'package:libre_send/models/models.dart';
 import 'file_service.dart';
 
 /// Linux-specific implementation of FileService using native file dialogs

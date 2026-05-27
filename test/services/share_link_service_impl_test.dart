@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:byte_transfer/services/share_link_service.dart';
-import 'package:byte_transfer/services/share_link_service_impl.dart';
+import 'package:libre_send/services/share_link_service.dart';
+import 'package:libre_send/services/share_link_service_impl.dart';
 
 void main() {
   group('ShareLinkService', () {

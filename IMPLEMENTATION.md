@@ -1,7 +1,7 @@
-# ByteTransfer - Complete Implementation Summary
+# LibreSend - Complete Implementation Summary
 
 ## Project Overview
-ByteTransfer is a multi-platform Flutter application for sharing files wirelessly over local networks without requiring internet connectivity.
+LibreSend is a multi-platform Flutter application for sharing files wirelessly over local networks without requiring internet connectivity.
 
 ## Architecture
 
@@ -148,7 +148,7 @@ Transport Security:
 
 ## File Structure
 ```
-ByteTransfer/
+LibreSend/
 ├── lib/
 │   ├── main.dart                    # App entry point
 │   ├── models/

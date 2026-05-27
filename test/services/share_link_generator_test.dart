@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:byte_transfer/services/share_link_generator.dart';
+import 'package:libre_send/services/share_link_generator.dart';
 
 void main() {
   group('ShareLinkGenerator', () {

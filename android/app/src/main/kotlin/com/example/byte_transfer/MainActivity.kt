@@ -1,4 +1,4 @@
-package com.example.byte_transfer
+package com.example.libre_send
 
 import android.content.Intent
 import android.os.Build
@@ -8,7 +8,7 @@ import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
     companion object {
-        private const val CHANNEL_NAME = "com.example.byte_transfer/background"
+        private const val CHANNEL_NAME = "com.example.libre_send/background"
     }
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {

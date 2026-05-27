@@ -6,7 +6,7 @@ import 'notification_service.dart';
 /// Handles starting/stopping the foreground service to keep the app alive
 /// while file sharing is active
 class AndroidBackgroundService {
-  static const String _methodChannel = 'com.example.byte_transfer/background';
+  static const String _methodChannel = 'com.example.libre_send/background';
   static const String _methodStartForegroundService = 'startForegroundService';
   static const String _methodStopForegroundService = 'stopForegroundService';
 

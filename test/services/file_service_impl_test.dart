@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:byte_transfer/services/file_service_impl.dart';
-import 'package:byte_transfer/models/shared_file.dart';
+import 'package:libre_send/services/file_service_impl.dart';
+import 'package:libre_send/models/shared_file.dart';
 
 void main() {
   group('FileServiceImpl', () {
@@ -10,7 +10,7 @@ void main() {
     late Directory tempDir;
 
     setUpAll(() async {
-      tempDir = await Directory.systemTemp.createTemp('byte_transfer_test_');
+      tempDir = await Directory.systemTemp.createTemp('libre_send_test_');
     });
 
     tearDownAll(() async {

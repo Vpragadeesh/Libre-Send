@@ -4,7 +4,7 @@ import 'dart:io';
 /// Uses native Android APIs directly for foreground service notifications
 class NotificationService {
   static const int _foregroundServiceNotificationId = 1;
-  static const String _foregroundServiceChannelId = 'byte_transfer_foreground_service';
+  static const String _foregroundServiceChannelId = 'libre_send_foreground_service';
 
   /// Initialize the notification service
   /// On Android, notifications are handled directly by the foreground service

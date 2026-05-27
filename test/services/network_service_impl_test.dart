@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:byte_transfer/services/network_service_impl.dart';
+import 'package:libre_send/services/network_service_impl.dart';
 
 void main() {
   group('NetworkServiceImpl', () {

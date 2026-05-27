@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
-import 'package:byte_transfer/models/models.dart';
-import 'package:byte_transfer/models/permissions.dart';
-import 'package:byte_transfer/services/file_service.dart';
+import 'package:libre_send/models/models.dart';
+import 'package:libre_send/models/permissions.dart';
+import 'package:libre_send/services/file_service.dart';
 import 'http_server_service.dart';
 
 /// Implementation of HTTPServerService using dart:io HttpServer

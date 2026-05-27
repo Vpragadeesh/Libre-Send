@@ -1,4 +1,4 @@
-import 'package:byte_transfer/models/models.dart';
+import 'package:libre_send/models/models.dart';
 
 /// File metadata information
 class FileMetadata {

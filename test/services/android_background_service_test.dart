@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:byte_transfer/services/android_background_service.dart';
-import 'package:byte_transfer/services/notification_service.dart';
+import 'package:libre_send/services/android_background_service.dart';
+import 'package:libre_send/services/notification_service.dart';
 
 // Fake implementation for testing
 class FakeNotificationService implements NotificationService {

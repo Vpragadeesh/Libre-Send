@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:byte_transfer/services/permission_service_impl.dart';
-import 'package:byte_transfer/services/permission_service.dart';
+import 'package:libre_send/services/permission_service_impl.dart';
+import 'package:libre_send/services/permission_service.dart';
 
 void main() {
   group('PermissionServiceImpl', () {

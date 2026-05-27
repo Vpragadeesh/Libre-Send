@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'dart:io' show Platform;
 import 'package:provider/provider.dart';
-import 'package:byte_transfer/app/app_state_manager.dart';
-import 'package:byte_transfer/services/file_service_impl.dart';
-import 'package:byte_transfer/services/file_service_linux.dart';
-import 'package:byte_transfer/services/file_service.dart';
-import 'package:byte_transfer/services/network_service_impl.dart';
-import 'package:byte_transfer/services/http_server_service_impl.dart';
-import 'package:byte_transfer/services/permission_service_impl.dart';
-import 'package:byte_transfer/services/download_service_impl.dart';
-import 'package:byte_transfer/ui/screens/sender_screen.dart';
-import 'package:byte_transfer/ui/screens/receiver_screen.dart';
-import 'package:byte_transfer/ui/screens/home_screen.dart';
+import 'package:libre_send/app/app_state_manager.dart';
+import 'package:libre_send/services/file_service_impl.dart';
+import 'package:libre_send/services/file_service_linux.dart';
+import 'package:libre_send/services/file_service.dart';
+import 'package:libre_send/services/network_service_impl.dart';
+import 'package:libre_send/services/http_server_service_impl.dart';
+import 'package:libre_send/services/permission_service_impl.dart';
+import 'package:libre_send/services/download_service_impl.dart';
+import 'package:libre_send/ui/screens/sender_screen.dart';
+import 'package:libre_send/ui/screens/receiver_screen.dart';
+import 'package:libre_send/ui/screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

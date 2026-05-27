@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:byte_transfer/services/download_service.dart';
-import 'package:byte_transfer/services/download_service_impl.dart';
+import 'package:libre_send/services/download_service.dart';
+import 'package:libre_send/services/download_service_impl.dart';
 
 void main() {
   group('DownloadService', () {

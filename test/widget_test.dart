@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:byte_transfer/main.dart';
+import 'package:libre_send/main.dart';
 
 void main() {
   testWidgets('LibreSendApp initializes', (WidgetTester tester) async {

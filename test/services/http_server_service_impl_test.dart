@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:byte_transfer/services/http_server_service_impl.dart';
-import 'package:byte_transfer/models/shared_file.dart';
+import 'package:libre_send/services/http_server_service_impl.dart';
+import 'package:libre_send/models/shared_file.dart';
 import 'package:mockito/mockito.dart';
-import 'package:byte_transfer/services/file_service.dart';
+import 'package:libre_send/services/file_service.dart';
 
 class MockFileService extends Mock implements FileService {}
 

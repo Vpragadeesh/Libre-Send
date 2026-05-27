@@ -2,15 +2,15 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/foundation.dart';
-import 'package:byte_transfer/models/models.dart';
-import 'package:byte_transfer/models/permissions.dart';
-import 'package:byte_transfer/services/file_service.dart';
-import 'package:byte_transfer/services/network_service.dart';
-import 'package:byte_transfer/services/http_server_service.dart';
-import 'package:byte_transfer/services/permission_service.dart';
-import 'package:byte_transfer/services/download_service.dart';
-import 'package:byte_transfer/services/android_background_service.dart';
-import 'package:byte_transfer/services/notification_service.dart';
+import 'package:libre_send/models/models.dart';
+import 'package:libre_send/models/permissions.dart';
+import 'package:libre_send/services/file_service.dart';
+import 'package:libre_send/services/network_service.dart';
+import 'package:libre_send/services/http_server_service.dart';
+import 'package:libre_send/services/permission_service.dart';
+import 'package:libre_send/services/download_service.dart';
+import 'package:libre_send/services/android_background_service.dart';
+import 'package:libre_send/services/notification_service.dart';
 
 /// Application state management using ChangeNotifier
 class AppStateManager extends ChangeNotifier {

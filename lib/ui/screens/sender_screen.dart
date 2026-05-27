@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:byte_transfer/app/app_state_manager.dart';
-import 'package:byte_transfer/models/permissions.dart';
+import 'package:libre_send/app/app_state_manager.dart';
+import 'package:libre_send/models/permissions.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
 class SenderScreen extends StatefulWidget {
@@ -98,33 +98,54 @@ class _SenderScreenState extends State<SenderScreen> {
                       ),
                     ),
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                  child: Row(
                     children: [
-                      Row(
-                        children: [
-                          const Icon(Icons.info_outline, size: 20, color: Colors.green),
-                          const SizedBox(width: 8),
-                          const Expanded(
-                            child: Text(
-                              'Server is running! Expand each file below to get its share link.',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 14,
-                              ),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Row(
+                              children: [
+                                const Icon(Icons.info_outline, size: 20, color: Colors.green),
+                                const SizedBox(width: 8),
+                                const Expanded(
+                                  child: Text(
+                                    'Server is running! Expand each file below to get its share link.',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 14,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
-                          ),
-                        ],
+                            const SizedBox(height: 8),
+                            Text(
+                              'Server: ${state.shareLink}',
+                              style: const TextStyle(fontSize: 12, color: Colors.grey),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              'Files: ${state.sharedFiles.length}',
+                              style: const TextStyle(fontSize: 12, color: Colors.grey),
+                            ),
+                          ],
+                        ),
                       ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'Server: ${state.shareLink}',
-                        style: const TextStyle(fontSize: 12, color: Colors.grey),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'Files: ${state.sharedFiles.length}',
-                        style: const TextStyle(fontSize: 12, color: Colors.grey),
+                      const SizedBox(width: 16),
+                      Container(
+                        padding: const EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: QrImageView(
+                          data: state.shareLink?.replaceFirst('http://', '').replaceFirst('https://', '') ?? '',
+                          version: QrVersions.auto,
+                          size: 80.0,
+                          gapless: true,
+                          backgroundColor: Colors.white,
+                        ),
                       ),
                     ],
                   ),

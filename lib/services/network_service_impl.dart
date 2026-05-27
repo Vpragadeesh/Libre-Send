@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:network_info_plus/network_info_plus.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:byte_transfer/models/models.dart';
+import 'package:libre_send/models/models.dart';
 import 'network_service.dart';
 
 /// Implementation of NetworkService using network_info_plus

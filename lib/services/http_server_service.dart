@@ -1,5 +1,5 @@
-import 'package:byte_transfer/models/models.dart';
-import 'package:byte_transfer/models/permissions.dart';
+import 'package:libre_send/models/models.dart';
+import 'package:libre_send/models/permissions.dart';
 
 enum ServerErrorType {
   portInUse,

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:byte_transfer/models/shared_file.dart';
+import 'package:libre_send/models/shared_file.dart';
 
 void main() {
   group('SharedFile', () {

@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
-import 'package:byte_transfer/models/models.dart';
+import 'package:libre_send/models/models.dart';
 import 'file_service.dart';
 
 /// Implementation of FileService using file_picker

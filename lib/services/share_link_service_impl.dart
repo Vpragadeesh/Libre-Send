@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 import 'share_link_service.dart';
 
 class ShareLinkServiceImpl implements ShareLinkService {
-  static const platform = MethodChannel('com.bytetransfer.app/clipboard');
+  static const platform = MethodChannel('com.libresend.app/clipboard');
 
   @override
   Future<void> copyToClipboard(String shareLink) async {
